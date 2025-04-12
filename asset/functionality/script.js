@@ -29,7 +29,7 @@ async function getJoke() {
       "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit";
     const response = await fetch(apiUrl);
     const data = await response.json();
-    console.log(data);
+
     if (data.joke) {
       joke = data.joke;
     } else {
