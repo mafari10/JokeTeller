@@ -1,6 +1,5 @@
 // Apikey for TTS SDK
-require("dotenv").config();
-const apiKey = process.env.API_KEY;
+const apiKey = "55143f8ea1384dc1b367fe3148cad749";
 // Get audio Element
 const audio = document.getElementById("audio");
 const jokeButton = document.getElementById("jokeButton");
